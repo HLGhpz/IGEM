@@ -1,0 +1,40 @@
+<!--pages/detail/detail.wxml-->
+<text>pages/detail/detail.wxml</text>
+
+<view class="connect_box">
+    <text class='connect_device_name'>{{deviceName}}</text>
+    <text wx:if="{{connect}}" class="connect_state" catchtap="DisConnectTap">已连接</text>
+    <text wx:else class="connect_state">未连接</text>
+</view>
+<view class="detail_box">
+    <!-- 输入部分 -->
+    <view class="send_box">
+        <textarea class="send_text" maxlength="-1" bindinput="SendValue" value="{{send_value}}" />
+        <view class="send_btn_box">
+            <text class="send_bytes" catchtap='CleanNumberSend'>Send Bytes</text>
+            <text class="send_bytes_val" catchtap='CleanNumberSend'>{{send_number}}</text>
+
+            <text id='send_button' class="send_btn" catchtap="SendTap">send</text>
+            <text class="send_clean_btn" catchtap="SendCleanTap">clean</text>
+
+            <text class="send_hex" catchtap="ToString16">{{send_string_val}}</text>
+        </view>
+    </view>
+
+    <!-- 接受部分 -->
+    <view class="recv_box">
+        <textarea class="revc_text" maxlength="-1" disabled value="{{recv_value}}" />
+        <view class="recv_btn_box">
+            <text class="recv_bytes" catchtap='CleanNumberRecv'>Recv Bytes</text>
+            <text class="recv_bytes_val" catchtap='CleanNumberRecv'>{{recv_number}}</text>
+
+            <text class="recv_clean_btn" catchtap="RecvCleanTap">clean</text>
+
+            <text class="recv_hex" catchtap="RecvString16">{{recv_string_val}}</text>
+
+           <!--  <text class="speed_value">0 B/s</text> -->
+
+        </view>
+    </view>
+
+</view>

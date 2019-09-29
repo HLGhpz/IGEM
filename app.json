@@ -1,0 +1,33 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/Bluetooth/Bluetooth",
+        "pages/detail/detail"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "selectedColor": "#17abe3",
+        "badge":"True",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "主页",
+                "iconPath": "images/homepage_normal.png",
+                "selectedIconPath": "images/homepage_active.png"
+            },
+            {
+                "pagePath": "pages/Bluetooth/Bluetooth",
+                "text": "text",
+                "iconPath": "images/bluetooth_normal.png",
+                "selectedIconPath": "images/bluetooth_active.png"
+            }
+        ]
+    }
+}
