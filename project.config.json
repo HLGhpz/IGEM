@@ -15,7 +15,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.8.2",
 	"appid": "wx66e353bd3b1abc21",
-	"projectname": "bluetooth",
+	"projectname": "IGEM",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
