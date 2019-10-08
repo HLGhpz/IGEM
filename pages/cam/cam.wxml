@@ -1,0 +1,49 @@
+<!--miniprogram/pages/cam.wxml-->
+
+<form bindsubmit="formSubmit_one" bindreset="formReset">
+        <view class="section__title">IP</view>
+
+    <view class="section">
+        <input name="CAM_ONE" placeholder="Please input your ip" />
+    </view>
+
+    <view class="btn-area">
+        <button size="mini" form-type="submit">Submit</button>
+        <button size="mini" form-type="reset">Reset</button>
+    </view>
+</form>
+
+<view class="box">
+    <view class='title'>image</view>
+    <view class="esp_image">
+        <image src="{{url_one}}"></image>
+    </view>
+
+</view>
+
+<form bindsubmit="formSubmit_two" bindreset="formReset">
+        <view class="section__title">IP</view>
+
+    <view class="section">
+        <input name="CAM_TWO" placeholder="Please input your ip" />
+    </view>
+
+    <view class="btn-area">
+        <button size="mini" form-type="submit">Submit</button>
+        <button size="mini" form-type="reset">Reset</button>
+    </view>
+</form>
+
+<view class="box">
+    <view class='title'>image</view>
+    <view class="esp_image">
+        <image src="{{url_two}}"></image>
+    </view>
+
+</view>
+
+<!-- <van-row>
+    <van-col span="24">
+    <image src="1.jpg" class="esp2_image"></image>
+    </van-col>
+</van-row> -->

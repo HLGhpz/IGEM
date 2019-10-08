@@ -7,11 +7,6 @@
         return arr.length
     }
 </wxs>
-<button bindtap="openBluetoothAdapter">开始扫描</button>
-<button bindtap="stopBluetoothDevicesDiscovery">停止扫描</button>
-<button bindtap="closeBluetoothAdapter">结束流程</button>
-<button bindtap="clearBluetoothDevices">清空列表</button>
-<button bindtap="writeBLECharacteristicValue">发送数据</button>
 
 <view class="devices_summary">已发现 {{devices.length}} 个外围设备：</view>
 <scroll-view class="device_list" scroll-y scroll-with-animation>

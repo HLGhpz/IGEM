@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/cam/cam",
         "pages/index/index",
         "pages/Bluetooth/Bluetooth",
         "pages/detail/detail"
@@ -14,19 +15,25 @@
     "sitemapLocation": "sitemap.json",
     "tabBar": {
         "selectedColor": "#17abe3",
-        "badge":"True",
+        "badge": "True",
         "list": [
             {
                 "pagePath": "pages/index/index",
-                "text": "主页",
+                "text": "home",
                 "iconPath": "images/homepage_normal.png",
                 "selectedIconPath": "images/homepage_active.png"
             },
             {
                 "pagePath": "pages/Bluetooth/Bluetooth",
-                "text": "text",
+                "text": "bluebooth",
                 "iconPath": "images/bluetooth_normal.png",
                 "selectedIconPath": "images/bluetooth_active.png"
+            },
+            {
+                "pagePath": "pages/cam/cam",
+                "text": "camera",
+                "iconPath": "images/camera_normal.png",
+                "selectedIconPath": "images/camera_active.png"
             }
         ]
     }
