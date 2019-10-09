@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<view class="box_image">
+    <image src="../../images/SMELL.png"></image>
+</view>

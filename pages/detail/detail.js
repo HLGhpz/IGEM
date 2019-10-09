@@ -115,6 +115,8 @@ Page({
         })
     },
 
+    //使用TLS-01模块
+    
     getBLEDeviceCharacteristics(deviceId, serviceId) {
         //获取特征值
         var that = this;

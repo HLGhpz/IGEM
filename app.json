@@ -1,14 +1,14 @@
 {
     "pages": [
-        "pages/cam/cam",
-        "pages/index/index",
         "pages/Bluetooth/Bluetooth",
+        "pages/cam/cam",
+        "pages/home/home",
         "pages/detail/detail"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "WeChat",
+        "navigationBarTitleText": "IGEM_HZAU",
         "navigationBarTextStyle": "black",
         "enablePullDownRefresh": true
     },
@@ -18,7 +18,7 @@
         "badge": "True",
         "list": [
             {
-                "pagePath": "pages/index/index",
+                "pagePath": "pages/home/home",
                 "text": "home",
                 "iconPath": "images/homepage_normal.png",
                 "selectedIconPath": "images/homepage_active.png"

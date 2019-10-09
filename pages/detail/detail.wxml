@@ -32,7 +32,7 @@
 
             <text class="recv_hex" catchtap="RecvString16">{{recv_string_val}}</text>
 
-           <!--  <text class="speed_value">0 B/s</text> -->
+            <text class="speed_value">0 B/s</text>
 
         </view>
     </view>

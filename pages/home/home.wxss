@@ -1,0 +1,6 @@
+/* pages/home/home.wxss */
+.box_image{
+    display: flex;
+    width: 80%;
+    margin: 200rpx auto;
+}
