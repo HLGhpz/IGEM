@@ -1,0 +1,45 @@
+/* pages/test/test.wxss */
+
+/* .box_switch{
+    display: flex;
+    flex-direction: row;
+    margin: 10rpx 0rpx;
+    padding: 10rpx 0rps;
+}
+
+.switch_button{
+    margin: 0 20rpx 0 20rpx;
+}
+
+.switch_text{
+    margin: 5rpx 10rpx 0rpx 30rpx;
+    font-family: 宋体;
+    font-size: 50rpx;
+} */
+
+.box_switch_L {
+    margin: 2rpx 0rpx;
+    border: 2rpx dashed rgb(20, 20, 20);
+    border-style: dashed dashed dashed none;
+    height: 100rpx;
+    width: 50%;
+    line-height: 80rpx;
+    float: left;
+}
+
+.box_switch_R {
+    margin: 2rpx 0rpx;
+    border: 2rpx dashed rgb(20, 20, 20);
+    border-style: dashed none dashed dashed;
+    height: 100rpx;
+    width: 50%;
+    line-height: 80rpx;
+    float: right;
+}
+
+.switch_text{
+    margin: 10rpx;
+    font-family: 宋体;
+    font-size: 50rpx;
+    text-align: center;
+}

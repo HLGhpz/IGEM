@@ -3,7 +3,8 @@
         "pages/Bluetooth/Bluetooth",
         "pages/cam/cam",
         "pages/home/home",
-        "pages/detail/detail"
+        "pages/detail/detail",
+        "pages/test/test"
     ],
     "window": {
         "backgroundTextStyle": "light",
