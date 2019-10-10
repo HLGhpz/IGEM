@@ -23,12 +23,15 @@
         <view class="switch_button"></view>
     </view>
 
-    <view class="box_switch_R">
+    <view class="box_switch_R" wx:if="{{switch1Checked==false}}">
         <switch checked="{{switch1Checked}}" bindchange="switch1Change"></switch>
+    </view>
+    <view class="box_switch_R" wx:if="{{switch1Checked==true}}">
+        <switch disabled="true" checked="{{switch1Checked}}" bindchange="switch1Change"></switch>
     </view>
 </view>
 
-<view class="box_log"> 
-<view class="log_text"> text </view>
-<view class="log_time">time</view>
+<view class="box_log">
+    <view class="log_text"> 上次发送时间 </view>
+    <view class="log_time">{{date1}}</view>
 </view>

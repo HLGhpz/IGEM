@@ -5,7 +5,7 @@ Page({
      * 页面的初始数据
      */
     data: {
-        switch1Checked: true,
+        switch1Checked: false,
         switch2Checked: false,
         switch1Style: '',
         switch2Style: 'text-decoration: line-through'
@@ -68,5 +68,13 @@ Page({
 
     },
 
-    
+    switch1Change: function (event) {
+        var myData = new Date();
+        this.setData({
+            date1: `${myData.getMonth() + 1}.${myData.getDate()} ${myData.getHours()}:${myData.getMinutes()}:${myData.getSeconds()}`,
+            switch1Checked: true
+        })
+    }
+
+
 })
