@@ -17,9 +17,11 @@
     </view>
 </view> -->
 
+
+<!-- 按钮1 -->
 <view class="box_switch">
     <view class="box_switch_L">
-        <view class="switch_text">hello </view>
+        <view class="switch_text">hello1</view>
         <view class="switch_button"></view>
     </view>
 
@@ -34,4 +36,191 @@
 <view class="box_log">
     <view class="log_text"> 上次发送时间 </view>
     <view class="log_time">{{date1}}</view>
+</view>
+
+
+<!-- 按钮2 -->
+<view class="box_switch">
+    <view class="box_switch_L">
+        <view class="switch_text">hello2</view>
+        <view class="switch_button"></view>
+    </view>
+
+    <view class="box_switch_R" wx:if="{{switch2Checked==false}}">
+        <switch checked="{{switch2Checked}}" bindchange="switch2Change"></switch>
+    </view>
+    <view class="box_switch_R" wx:if="{{switch2Checked==true}}">
+        <switch disabled="true" checked="{{switch2Checked}}" bindchange="switch2Change"></switch>
+    </view>
+</view>
+
+<view class="box_log">
+    <view class="log_text"> 上次发送时间 </view>
+    <view class="log_time">{{date2}}</view>
+</view>
+
+
+<!-- 按钮3 -->
+<view class="box_switch">
+    <view class="box_switch_L">
+        <view class="switch_text">hello3</view>
+        <view class="switch_button"></view>
+    </view>
+
+    <view class="box_switch_R" wx:if="{{switch3Checked==false}}">
+        <switch checked="{{switch3Checked}}" bindchange="switch3Change"></switch>
+    </view>
+    <view class="box_switch_R" wx:if="{{switch3Checked==true}}">
+        <switch disabled="true" checked="{{switch3Checked}}" bindchange="switch3Change"></switch>
+    </view>
+</view>
+<view class="box_log">
+    <view class="log_text"> 上次发送时间 </view>
+    <view class="log_time">{{date3}}</view>
+</view>
+
+
+<!-- 按钮4 -->
+<view class="box_switch">
+    <view class="box_switch_L">
+        <view class="switch_text">hello4</view>
+        <view class="switch_button"></view>
+    </view>
+
+    <view class="box_switch_R" wx:if="{{switch4Checked==false}}">
+        <switch checked="{{switch4Checked}}" bindchange="switch4Change"></switch>
+    </view>
+    <view class="box_switch_R" wx:if="{{switch4Checked==true}}">
+        <switch disabled="true" checked="{{switch4Checked}}" bindchange="switch4Change"></switch>
+    </view>
+</view>
+
+<view class="box_log">
+    <view class="log_text"> 上次发送时间 </view>
+    <view class="log_time">{{date4}}</view>
+</view>
+
+
+<!-- 按钮5 -->
+<view class="box_switch">
+    <view class="box_switch_L">
+        <view class="switch_text">hello5</view>
+        <view class="switch_button"></view>
+    </view>
+
+    <view class="box_switch_R" wx:if="{{switch5Checked==false}}">
+        <switch checked="{{switch5Checked}}" bindchange="switch5Change"></switch>
+    </view>
+    <view class="box_switch_R" wx:if="{{switch5Checked==true}}">
+        <switch disabled="true" checked="{{switch5Checked}}" bindchange="switch5Change"></switch>
+    </view>
+</view>
+
+<view class="box_log">
+    <view class="log_text"> 上次发送时间 </view>
+    <view class="log_time">{{date5}}</view>
+</view>
+
+
+<!-- 按钮6 -->
+<view class="box_switch">
+    <view class="box_switch_L">
+        <view class="switch_text">hello6</view>
+        <view class="switch_button"></view>
+    </view>
+
+    <view class="box_switch_R" wx:if="{{switch6Checked==false}}">
+        <switch checked="{{switch6Checked}}" bindchange="switch6Change"></switch>
+    </view>
+    <view class="box_switch_R" wx:if="{{switch6Checked==true}}">
+        <switch disabled="true" checked="{{switch6Checked}}" bindchange="switch6Change"></switch>
+    </view>
+</view>
+
+<view class="box_log">
+    <view class="log_text"> 上次发送时间 </view>
+    <view class="log_time">{{date6}}</view>
+</view>
+
+
+<!-- 按钮7 -->
+<view class="box_switch">
+    <view class="box_switch_L">
+        <view class="switch_text">hello7</view>
+        <view class="switch_button"></view>
+    </view>
+
+    <view class="box_switch_R" wx:if="{{switch7Checked==false}}">
+        <switch checked="{{switch7Checked}}" bindchange="switch7Change"></switch>
+    </view>
+    <view class="box_switch_R" wx:if="{{switch7Checked==true}}">
+        <switch disabled="true" checked="{{switch7Checked}}" bindchange="switch7Change"></switch>
+    </view>
+</view>
+
+<view class="box_log">
+    <view class="log_text"> 上次发送时间 </view>
+    <view class="log_time">{{date7}}</view>
+</view>
+
+
+<!-- 按钮8 -->
+<view class="box_switch">
+    <view class="box_switch_L">
+        <view class="switch_text">hello8</view>
+        <view class="switch_button"></view>
+    </view>
+
+    <view class="box_switch_R" wx:if="{{switch8Checked==false}}">
+        <switch checked="{{switch8Checked}}" bindchange="switch8Change"></switch>
+    </view>
+    <view class="box_switch_R" wx:if="{{switch8Checked==true}}">
+        <switch disabled="true" checked="{{switch8Checked}}" bindchange="switch8Change"></switch>
+    </view>
+</view>
+
+<view class="box_log">
+    <view class="log_text"> 上次发送时间 </view>
+    <view class="log_time">{{date8}}</view>
+</view>
+
+
+<!-- 按钮9 -->
+<view class="box_switch">
+    <view class="box_switch_L">
+        <view class="switch_text">hello9</view>
+        <view class="switch_button"></view>
+    </view>
+
+    <view class="box_switch_R" wx:if="{{switch9Checked==false}}">
+        <switch checked="{{switch9Checked}}" bindchange="switch9Change"></switch>
+    </view>
+    <view class="box_switch_R" wx:if="{{switch9Checked==true}}">
+        <switch disabled="true" checked="{{switch9Checked}}" bindchange="switch9Change"></switch>
+    </view>
+</view>
+
+<view class="box_log">
+    <view class="log_text"> 上次发送时间 </view>
+    <view class="log_time">{{date9}}</view>
+</view>
+
+<!-- 按钮10 -->
+<view class="box_switch">
+    <view class="box_switch_L">
+        <view class="switch_text">hello10</view>
+        <view class="switch_button"></view>
+    </view>
+
+    <view class="box_switch_R" wx:if="{{switch10Checked==false}}">
+        <switch checked="{{switch10Checked}}" bindchange="switch10Change"></switch>
+    </view>
+    <view class="box_switch_R" wx:if="{{switch10Checked==true}}">
+        <switch disabled="true" checked="{{switch10Checked}}" bindchange="switch10Change"></switch>
+    </view>
+</view>
+
+<view class="box_log">
+    <view class="log_text"> 上次发送时间 </view>
+    <view class="log_time">{{date10}}</view>
 </view>

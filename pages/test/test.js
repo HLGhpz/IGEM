@@ -7,8 +7,15 @@ Page({
     data: {
         switch1Checked: false,
         switch2Checked: false,
-        switch1Style: '',
-        switch2Style: 'text-decoration: line-through'
+        switch3Checked: false,
+        switch4Checked: false,
+        switch5Checked: false,
+        switch6Checked: false,
+        switch7Checked: false,
+        switch8Checked: false,
+        switch9Checked: false,
+        switch10Checked: false,
+
 
     },
 
