@@ -17,12 +17,18 @@
     </view>
 </view> -->
 
-<view class=".box_switch_L">
-    <view class="switch_text">hello </view>
-    <view class="switch_button"></view>
+<view class="box_switch">
+    <view class="box_switch_L">
+        <view class="switch_text">hello </view>
+        <view class="switch_button"></view>
+    </view>
+
+    <view class="box_switch_R">
+        <switch checked="{{switch1Checked}}" bindchange="switch1Change"></switch>
+    </view>
 </view>
 
-<view class=".box_switch_R">
-    <view class="switch_text">hello </view>
-    <view class="switch_button"></view>
+<view class="box_log"> 
+<view class="log_text"> text </view>
+<view class="log_time">time</view>
 </view>

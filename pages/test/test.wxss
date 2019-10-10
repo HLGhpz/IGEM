@@ -17,29 +17,49 @@
     font-size: 50rpx;
 } */
 
-.box_switch_L {
-    margin: 2rpx 0rpx;
-    border: 2rpx dashed rgb(20, 20, 20);
-    border-style: dashed dashed dashed none;
+.box_switch {
+    width: 100%;
+    text-align: center;
     height: 100rpx;
-    width: 50%;
-    line-height: 80rpx;
+    /* background-color: red; */
+}
+
+.box_switch_L {
+    width: 374rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    /* margin: 2rpx 0rpx; */
+    border: 1rpx dashed rgb(20, 20, 20);
+    border-style: dashed dashed dashed none;
     float: left;
 }
 
 .box_switch_R {
-    margin: 2rpx 0rpx;
-    border: 2rpx dashed rgb(20, 20, 20);
-    border-style: dashed none dashed dashed;
+    width: 374rpx;
     height: 100rpx;
-    width: 50%;
-    line-height: 80rpx;
+    line-height: 100rpx;
+    /* margin: 2rpx 0rpx; */
+    border: 1rpx dashed rgb(20, 20, 20);
+    border-style: dashed none dashed none;
     float: right;
 }
 
-.switch_text{
-    margin: 10rpx;
+.box_log{
+    background-color: rgb(240, 240, 240);
+    height: 80rpx;
+    line-height: 80rpx;
+    margin-top: 10rpx;
+}
+
+.log_text {
+    margin: 0 40rpx;
+    float: left;
     font-family: 宋体;
-    font-size: 50rpx;
-    text-align: center;
+    /* font-size: 50rpx; */
+}
+
+.log_time{
+    margin: 0 50rpx;
+    float: right;
+    font-family: 宋体;
 }
