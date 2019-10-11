@@ -129,7 +129,7 @@ Page({
         var name = event.currentTarget.dataset.name;
         console.log("name", name)
         wx.navigateTo({
-            url: '../detail/detail?id=' + title + '&name=' + name
+            url: '../test/test?id=' + title + '&name=' + name
         })
 
         // const ds = e.currentTarget.dataset

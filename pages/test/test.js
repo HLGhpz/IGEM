@@ -81,11 +81,11 @@ Page({
             date1: `${myData.getMonth() + 1}.${myData.getDate()} ${myData.getHours()}:${myData.getMinutes()}:${myData.getSeconds()}`,
             switch1Checked: true
         })
-        // wx.showToast({
-        //     title: '成功',
-        //     icon: 'success',
-        //     duration: 2000
-        // })
+        wx.showToast({
+            title: '成功',
+            icon: 'success',
+            duration: 2000
+        })
 
         // wx.showModal({
         //     title: '提示',

@@ -1,0 +1,47 @@
+/* pages/test_2/test_2.wxss */
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*显示在主轴的中间*/
+    align-items: center; /*子项在侧轴中间位置*/
+    text-align: center;
+    height: 100rpx;
+    width: 100%;
+    border: 2rpx rgb(220, 220, 220);
+    border-style: solid;
+    /* background: red; */
+}
+
+.box_text {
+    flex-grow: 1;
+    /* background: rgb(220, 220, 220); */
+}
+
+.text_title{
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 40rpx;
+}
+.text_time{
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 25rpx;
+}
+
+.box_switch {
+    width: 30%;
+    /* background: rgb(200, 200, 200); */
+}
+
+.box_icon {
+    width: 20%;
+    /* flex-grow: 1; */
+    /* background: rgb(180, 180, 180); */
+}
+
+.icon_image {
+    display: inline-flex;
+    width: 100rpx;
+    height: 100rpx;
+}
