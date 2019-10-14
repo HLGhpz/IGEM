@@ -5,7 +5,8 @@
         "pages/home/home",
         "pages/detail/detail",
         "pages/test/test",
-        "pages/test_2/test_2"
+        "pages/test_2/test_2",
+        "pages/send/send"
     ],
     "window": {
         "backgroundTextStyle": "light",
