@@ -1,6 +1,64 @@
 /* pages/home/home.wxss */
-.box_image{
+.top_box{
+    margin-top: 40rpx; 
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_title{
+    height: 100rpx;
+    width:480rpx;
+}
+
+.sub_title{
+    margin-top: 50rpx;
+    height: 40rpx;
+    width: 380rpx;
+}
+
+
+.top_image{
+    margin-left: 30rpx;
+    height: 300rpx;
+    width: 200rpx;
+}
+
+.middle_box{
+    display: flex;
+    margin-top: 60rpx;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_image{
+    width: 100%;
+}
+
+.sponsors_box{
+    display: flex;
+    height: 120rpx;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: rgb(67, 67, 67);
+}
+
+/* .image_box{
     width: 80%;
-    margin: 200rpx auto;
+    background: green;
+} */
+
+.sponsors_image{
+    /* width: 80%; */
+    /* margin-top:rpx; */
+    /* margin: 45rpx auto; */
+    height: 30rpx;
+    /* background: red; */
 }

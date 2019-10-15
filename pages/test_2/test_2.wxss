@@ -1,1 +1,23 @@
 /* pages/test_2/test_2.wxss */
+
+.sponsors_box{
+    display: flex;
+    height: 120rpx;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: rgb(67, 67, 67);
+}
+
+/* .image_box{
+    width: 80%;
+    background: green;
+} */
+
+.sponsors_image{
+    /* width: 80%; */
+    /* margin-top:rpx; */
+    /* margin: 45rpx auto; */
+    height: 30rpx;
+    /* background: red; */
+}
