@@ -31,12 +31,6 @@
                 "text": "bluebooth",
                 "iconPath": "images/bluetooth_normal.png",
                 "selectedIconPath": "images/bluetooth_active.png"
-            },
-            {
-                "pagePath": "pages/cam/cam",
-                "text": "camera",
-                "iconPath": "images/camera_normal.png",
-                "selectedIconPath": "images/camera_active.png"
             }
         ]
     }

@@ -1,4 +1,14 @@
 /* pages/send/send.wxss */
+.box_title{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.title{
+    margin: 10rpx 70rpx 0rpx 0rpx; 
+    text-decoration: underline;
+}
+
 .box_main{
     display: flex;
     align-items: center;
@@ -6,7 +16,8 @@
 }
 
 .image_box{
-    margin: 50rpx auto;
+    margin-top: 10rpx;
+    margin-bottom: 30rpx;
 }
 
 .box_icon{

@@ -1,13 +1,1 @@
 <!--pages/test_2/test_2.wxml-->
-<view class="box">
-    <view class="box_text">
-        <view class="text_title">add o2</view>
-        <view class="text_time">上次发送时间</view>
-    </view>
-    <view class="box_switch">
-        <switch></switch>
-    </view>
-    <view class="box_icon">
-        <image class="icon_image" src="../../images/o2.png"></image>
-    </view>
-</view>

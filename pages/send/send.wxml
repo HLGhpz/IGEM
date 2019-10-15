@@ -1,4 +1,8 @@
 <!--pages/send/send.wxml-->
+<view class="box_title">
+    <text class="title">{{ConnectionStatus}}</text>
+</view>
+
 <view class="box_main">
     <view class="image_box">
         <image src="../../images/SMELL.png"></image>
@@ -7,30 +11,27 @@
 
 <view class="box_icon">
     <view class="icon">
-        <image class="icon_image" src="../../images/icon1.png"></image>
-        <!-- <text class="icon_title">Start recording</text> -->
-        <button size="mini" class="icon_button" plain= false>Start recording</button>
+        <image bindtap="Start_recording" class="icon_image" src="../../images/icon1.png"></image>
+        <text class="icon_title">Start recording</text>
+        <!-- <button size="mini" class="icon_button" plain= false>Start recording</button> -->
     </view>
+
     <view class="icon">
-        <image class="icon_image" src="../../images/icon2.png"></image>
-        <!-- <text class="icon_title">View status</text> -->
-        <button size="mini" class="icon_button" plain= false>View status</button>
-
-
+        <image bindtap="View_status" class="icon_image" src="../../images/icon2.png"></image>
+        <text class="icon_title">View status</text>
+        <!-- <button size="mini" class="icon_button" plain= false>View status</button> -->
     </view>
+
     <view class="icon">
-        <image class="icon_image" src="../../images/icon3.png"></image>
-        <!-- <text class="icon_title">Reproduce</text> -->
-        <button size="mini" class="icon_button" plain= false>Reproduce</button>
-
-
+        <image bindtap="Reproduce" class="icon_image" src="../../images/icon3.png"></image>
+        <text class="icon_title">Reproduce</text>
+        <!-- <button size="mini" class="icon_button" plain= false>Reproduce</button> -->
     </view>
+
     <view class="icon">
-        <image class="icon_image" src="../../images/icon4.png"></image>
-        <!-- <text class="icon_title">Erase</text> -->
-        <button size="mini" class="icon_button" plain= false>Erase</button>
-
-
+        <image bindtap="Erase" class="icon_image" src="../../images/icon4.png"></image>
+        <text class="icon_title">Erase</text>
+        <!-- <button size="mini" class="icon_button" plain= false>Erase</button> -->
     </view>
 
 </view>
