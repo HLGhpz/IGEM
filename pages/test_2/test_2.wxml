@@ -1,5 +1,0 @@
-<!--pages/test_2/test_2.wxml-->
-
-<view class="sponsors_box" style="position:fixed; bottom:0;">
-        <image class="sponsors_image" src="../../images/sponsors.png"></image>
-</view>

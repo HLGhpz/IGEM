@@ -3,9 +3,6 @@
         "pages/home/home",
         "pages/Bluetooth/Bluetooth",
         "pages/cam/cam",
-        "pages/detail/detail",
-        "pages/test/test",
-        "pages/test_2/test_2",
         "pages/send/send"
     ],
     "window": {

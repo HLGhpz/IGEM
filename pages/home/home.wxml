@@ -3,16 +3,20 @@
     <image src="../../images/SMELL.png"></image>
 </view> -->
 
-<view class="top_box">
+<!-- <view class="top_box">
     <view class="title_box">
         <image class="main_title" src="../../images/maintitle.png"></image>
         <image class="sub_title" src="../../images/subtitle.png"></image>
     </view>
     <image class="top_image" src="../../images/image_1.png"></image>
+</view> -->
+
+<view class="main_box">
+    <image class="main_image" src="../../images/main.png"></image>
 </view>
 
 <view class="middle_box">
-    <image class="middle_image" src="../../images/image_2.png"></image>
+    <image class="middle_image" src="../../images/image_2_1.png"></image>
 </view>
 
 <view class="sponsors_box" style="position:fixed; bottom:0;">

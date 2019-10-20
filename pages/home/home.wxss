@@ -1,5 +1,5 @@
 /* pages/home/home.wxss */
-.top_box{
+/* .top_box{
     margin-top: 40rpx; 
     display: flex;
     align-items: center;
@@ -14,8 +14,18 @@
 .main_title{
     height: 100rpx;
     width:480rpx;
+} */
+
+.main_box{
+    width: 100%;
+    display: flex;
+    /* background: red; */
 }
 
+.main_image{
+    width: 100%;
+    /* background: red; */
+}
 .sub_title{
     margin-top: 50rpx;
     height: 40rpx;
